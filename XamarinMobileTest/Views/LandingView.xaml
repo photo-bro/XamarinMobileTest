@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XamarinMobileTest" x:Class="XamarinMobileTest.LandingView" BindingContext="XamarinMobileTest.LandingViewModel">
+	<Grid>
+		<StackLayout VerticalOptions="Center">
+			<Label Text="{Binding Message, Mode=TwoWay}" HorizontalOptions="Center" Margin="10" />
+			<Entry Text="{Binding UserMessage, Mode=TwoWay}" BackgroundColor="Silver" Margin="25,10,25,10" />
+			<Button Text="Ok" Margin="50,5,50,5" BorderColor="Black" BorderWidth="1" BorderRadius="5" Command="{Binding OkButtonCommand}" />
+		</StackLayout>
+	</Grid>
+</ContentPage>
