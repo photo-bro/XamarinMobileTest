@@ -4,9 +4,7 @@ namespace XamarinMobileTest
 {
 	public partial class LandingView : ContentPage
 	{
-		public LandingView ()
-		{
-			InitializeComponent ();
-		}
+		public LandingView()
+		{ InitializeComponent(); }
 	}
 }
